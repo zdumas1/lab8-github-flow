@@ -31,7 +31,7 @@ if __name__ == "__main__":
     while True:
         choice = Prompt.ask("[bold cyan]Which direction do you choose?[/bold cyan] (left/right/exit)").strip().lower()
         if choice == 'exit':
-            console.print("Thanks for playing! Goodbye.", style="bold magenta")
+            console.print("You take one last look at the forest before leaving. Goodbye, traveler!", style="bold magenta")
             break
         
         result = step(choice, events)
